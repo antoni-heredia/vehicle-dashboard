@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "vehicle-dashboard"
+version = "0.1.0"
+description = "Dashboard Streamlit básico sin Mapbox"
+authors = ["Toni <a.heredia.castillo@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.39.0"
+clickhouse-connect = "^0.7.18"
+pandas = "^2.2.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
